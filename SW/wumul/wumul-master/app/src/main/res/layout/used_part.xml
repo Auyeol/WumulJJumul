@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Key 님은 현재"
+        android:layout_gravity="center"
+        android:textSize="50dp"
+        android:layout_marginTop="30dp"/>
+
+
+
+    <TextView
+        android:id="@+id/used_shower"
+        android:background="@drawable/button2_pattern"
+        android:layout_marginLeft="100dp"
+        android:drawableLeft="@drawable/shower_resize"
+        android:drawablePadding="30dp"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_gravity="left"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/cafe24surround"
+        android:textSize="20dp"
+        android:text="샤워기에서 --만큼 사용했어요" />
+
+    <TextView
+        android:id="@+id/used_washstand"
+        android:background="@drawable/button_pattern"
+        android:layout_marginLeft="60dp"
+        android:drawableLeft="@drawable/washstand_resize"
+        android:drawablePadding="30dp"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_gravity="left"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/cafe24surround"
+        android:textSize="20dp"
+        android:text="세면대에서 --만큼 사용했어요" />
+
+    <TextView
+        android:id="@+id/used_total"
+        android:background="@drawable/button1_pattern"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/sink_resize"
+        android:drawablePadding="30dp"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_gravity="left"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/cafe24surround"
+        android:textSize="20dp"
+        android:text="총 --만큼 사용했어요" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/water_back"
+        android:layout_gravity="end"
+        ></ImageView>
+
+
+</LinearLayout>

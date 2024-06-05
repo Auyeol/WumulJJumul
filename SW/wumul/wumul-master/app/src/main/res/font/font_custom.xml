@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--TODO: 글꼴 파일명 입력-->
+    <font
+        android:font="@font/cafe24surround"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        />
+
+    <!--TODO: 글꼴 파일명 입력-->
+    <font
+        android:font="@font/cafe24surround"
+        android:fontStyle="normal"
+        android:fontWeight="700"/>
+
+</font-family>

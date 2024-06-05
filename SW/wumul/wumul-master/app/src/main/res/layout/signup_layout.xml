@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_gravity="left"
+        app:srcCompat="@drawable/logo"/>
+
+    <ImageView
+        android:id="@+id/water_family"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/signup_image" />
+
+    <EditText
+        android:id="@+id/create_user_ID"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/cafe24surround"
+        android:textSize="20dp"
+        android:hint="이메일" />
+
+
+    <EditText
+        android:id="@+id/create_user_PASSWARD"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/cafe24surround"
+        android:textSize="20dp"
+        android:inputType="textPassword"
+        android:hint="비밀번호 (6자리 이상)" />
+
+
+    <EditText
+        android:id="@+id/check_user_PASSWARD"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/cafe24surround"
+        android:textSize="20dp"
+        android:inputType="textPassword"
+        android:hint="비밀번호 확인" />
+
+
+    <Button
+        android:id="@+id/create_account_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#87CEEB"
+        android:fontFamily="@font/cafe24surround"
+        android:onClick="signUp"
+        android:text="회원가입"
+        android:textSize="30dp" />
+
+</LinearLayout>

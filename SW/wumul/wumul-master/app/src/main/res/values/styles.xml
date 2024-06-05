@@ -1,0 +1,13 @@
+<resources>
+    <style name="splash_layout">
+        <item name="android:background">@drawable/splash_image</item>
+    </style>
+
+        <!-- 두꺼운 선형 프로그래스바 스타일 -->
+    <style name="MyProgressBar" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:height">10dp</item> <!-- 원하는 두께로 조절 -->
+        <item name="android:progressDrawable">@drawable/my_progress_bar_drawable</item>
+    </style>
+
+
+</resources>

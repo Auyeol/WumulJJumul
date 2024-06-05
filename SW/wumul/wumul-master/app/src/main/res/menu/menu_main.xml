@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/menu_wateruse"
+        android:title="물 사용량"
+        android:fontFamily="@font/cafe24surround"
+        android:icon="@drawable/waterdrop"/>
+
+    <item
+        android:id="@+id/menu_people"
+        android:title="구성원"
+        android:fontFamily="@font/cafe24surround"
+        android:icon="@drawable/waterdrop"/>
+
+    <item
+        android:id="@+id/menu_tips"
+        android:title="절약 TIP"
+        android:fontFamily="@font/cafe24surround"
+        android:icon="@drawable/waterdrop"/>
+
+        <item
+            android:id="@+id/check_use"
+            android:title="사용량 체크"
+            android:fontFamily="@font/cafe24surround"
+            android:icon="@drawable/waterdrop"/>
+        <item
+            android:id="@+id/check_graph"
+            android:title="월간 그래프"
+            android:fontFamily="@font/cafe24surround"
+            android:icon="@drawable/waterdrop"/>
+
+        <item
+            android:id="@+id/show_reward"
+            android:title="포인트"
+            android:fontFamily="@font/cafe24surround"
+            android:icon="@drawable/waterdrop"/>
+
+        <item
+            android:id="@+id/show_badge"
+            android:title="획득 뱃지 (구현 예정)"
+            android:fontFamily="@font/cafe24surround"
+            android:icon="@drawable/waterdrop"/>
+
+<!--         android:icon="@drawable/ic_bookmark"-->
+
+    </group>
+
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/nav_logout"
+                android:title="로그아웃"
+                android:fontFamily="@font/cafe24surround"/>
+        </menu>
+
+
+
+    </item>
+
+
+
+</menu>

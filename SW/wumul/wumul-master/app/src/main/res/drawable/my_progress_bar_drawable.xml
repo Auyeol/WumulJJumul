@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="40dp" /> <!-- 둥근 직사각형을 위한 속성 -->
+            <solid android:color="#D9DCEB" /> <!-- 배경색 설정 -->
+        </shape>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="40dp" /> <!-- 둥근 직사각형을 위한 속성 -->
+                <solid android:color="#99CCFF" /> <!-- 프로그래스바의 색상 설정 -->
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

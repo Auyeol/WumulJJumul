@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "465502393948",
+    "project_id": "wumul-bf62f",
+    "storage_bucket": "wumul-bf62f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465502393948:android:f8094062490b31dc5df899",
+        "android_client_info": {
+          "package_name": "com.example.wumul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465502393948-memlpal5tb966291sqmh0c3817qubtp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxqJOMfnt0UhUHdHU5ceeZN0q6cHO_paU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465502393948-memlpal5tb966291sqmh0c3817qubtp3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
